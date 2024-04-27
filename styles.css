@@ -6,7 +6,37 @@ body {
     line-height: 1.5;
   }
 
-button {
+header {
+    background-color: lightblue;
+    color: white;
+
+}
+
+h1 {
+
+    color: #F6F6F6;
+
+    /* H1 */
+    /* font-family: "Krona One"; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 155.556% */
+
+}
+
+strong {
+
+    color: #22D4FD;
+    /* H1 */
+    /* font-family: "Krona One"; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;   
+}
+
+.botão-1 {
     background-color: green;
     color: white;
     border-radius: 16px;
@@ -23,33 +53,30 @@ button {
     flex-shrink: 0; 
 }
 
-header {
-    background-color: lightblue;
+.botão-2 {
+    background-color: rgb(38, 0, 128);
     color: white;
-
+    border-radius: 16px;
+    border: 0px solid #3b22fd;
+    background: #6722fd;
+    
+    display: flex;
+    width: 280px;
+    height: 79px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0; 
 }
-h1 {
 
-    color: #F6F6F6;
-
-    /* H1 */
-    font-family: "Krona One";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px; /* 155.556% */
-
+.botao-azul {
+    background-color: blue;
+    color: white;
 }
 
-strong {
-
-    color: #22D4FD;
-    /* H1 */
-    font-family: "Krona One";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px;   
-
-
+.botao-verde {
+    background-color: green;
+    color: white;
 }
+
