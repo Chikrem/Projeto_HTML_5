@@ -25,9 +25,29 @@ h1 {
 
 }
 
-strong {
 
-    color: #22D4FD;
+h1[title]{
+    color: green;
+}
+
+
+
+p {
+
+    color: #F6F6F6;
+
+    /* H1 */
+    /* font-family: "Krona One"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 155.556% */
+
+}
+
+.Color .Destaque-h {
+
+    /* color: #22D4FD; */
     /* H1 */
     /* font-family: "Krona One"; */
     font-size: 36px;
@@ -36,12 +56,28 @@ strong {
     line-height: 56px;   
 }
 
+.Color .Destaque-p {
+
+    /* color: #22D4FD; */
+    /* H1 */
+    /* font-family: "Krona One"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;   
+}
+
+.Color {
+
+    color: aqua;
+}
+
 .botão-1 {
-    background-color: green;
+    background-color: rgb(38, 0, 128);
     color: white;
     border-radius: 16px;
     border: 0px solid #22D4FD;
-    background: #22D4FD;
+    background: green;
     
     display: flex;
     width: 280px;
@@ -69,14 +105,3 @@ strong {
     gap: 16px;
     flex-shrink: 0; 
 }
-
-.botao-azul {
-    background-color: blue;
-    color: white;
-}
-
-.botao-verde {
-    background-color: green;
-    color: white;
-}
-
