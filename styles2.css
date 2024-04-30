@@ -80,12 +80,10 @@ header {
 }
 
 .botão-2 {
-    background-color: rgb(38, 0, 128);
-    color: white;
-    border-radius: 16px;
-    border: 0px solid #3b22fd;
-    background: #6722fd;
+    background-color: rgb(38, 0, 128); /* Se aplica a .botão-2, sobrescrevendo a propriedade anterior */
+    background: #6722fd; /* Sobrescreve a propriedade background-color anterior */
 }
+
 
 .apresentacao {
     display: flex;
