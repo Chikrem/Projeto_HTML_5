@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 *{
     margin: 0;
@@ -17,13 +17,16 @@ body{
 }
 
 .apresentacao{
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -34,4 +37,53 @@ body{
 .apresentacao__conteudo__texto{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__titulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+/* Botões */
+
+.apresentacao__links__link{
+
+    /* Alinhamento e Espaçamento do Icone com o Texto Botão */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    /* Desenho do Botão */
+
+    border:solid 2px #22D4FD;
+    width: 378px; 
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.apresentacao__links__link:hover{
+
+    background-color: #272727;
+    border:solid 2px #F6F6F6;
+    font-size: 25px;
+    padding: 25px 1%;
+    cursor: pointer;
+
 }
