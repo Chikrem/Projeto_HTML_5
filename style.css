@@ -13,6 +13,7 @@ body{
 }
 
 .titulo-destaque{
+    font-family: 'Krona One', sans-serif;
     color: #22D4FD;
 }
 
@@ -20,11 +21,14 @@ body{
 
 .cabecalho{
     padding: 2% 0 0 10%;
+    display: flex;
+
 }
 
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    padding: 1%;
 }
 
 .cabecalho__menu__link{
@@ -40,7 +44,7 @@ body{
 
     /* Tamanho Fixado para que os Elementos não se desloquem com o Hover */
 
-    width: 140px;
+    width: 150px;
     height: 30px;
 }
 
@@ -57,7 +61,7 @@ body{
 .apresentacao{
     padding: 5% 10%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
@@ -142,4 +146,9 @@ body{
 
 span{
     font-style: italic;
+}
+
+.imagem {
+    display: flex;
+    justify-self: flex-start;
 }
